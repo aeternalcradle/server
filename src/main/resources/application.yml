@@ -1,0 +1,16 @@
+
+
+spring:
+  application:
+    name: Server
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/poi
+    username: root
+    password: wcl20031030
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+upload:
+  localPath: D:\home/
+  accessPath: /upload/
